@@ -8,8 +8,9 @@ An authoritative, multi-platform AI assistant skill and automated compliance lin
 
 ---
 
-## 🌟 Overview
+## 🌟 Overview / 项目概述
 
+### English
 Writing and formatting a Master's or PhD thesis at UKM requires strict adherence to institutional guidelines. Formatting errors (such as commas inside parenthetical citations, bracketed years in reference lists, improper headings, or non-compliant margins) frequently cause delays during proposal defense, external viva examination, and final hard-cover submission.
 
 This repository packages the entire 129-page *Gaya UKM (2015)* official manual into an **all-in-one, multi-platform toolkit** ready for deployment across:
@@ -18,6 +19,16 @@ This repository packages the entire 129-page *Gaya UKM (2015)* official manual i
 * 💼 **WorkBuddy** (Enterprise Assistant / 腾讯/钉钉智能助手)
 * 🚀 **Antigravity / Gemini CLI** (Native Agentic Skill)
 * 🐍 **Python CLI** (Automated manuscript compliance linter)
+
+### 中文概述
+在马来西亚国民大学（UKM）撰写硕士（Master）或博士（PhD / DBA）学位论文及开题报告（Proposal）时，必须 100% 严格执行校方官方规范。诸如正文括号引用中误加逗号 `(Author, 2020)`、参考文献列表年份误带括号 `Author (2020).`、四级标题非法进入目录、表格出现纵向竖线以及页边距不合规等典型格式错误，往往会导致开题被拒、送审答辩（Viva Voce）延误以及最终精装本（Hard Cover）归档受阻。
+
+本项目将 UKM 研究生院（Pusat Pengajian Siswazah）颁布的 **129 页官方《Gaya UKM 2015》权威指南**完整提炼与结构化重构，打造了一套**跨平台、开箱即用的 AI 论文写作辅助与格式审查工具包**，已全面适配：
+* 🤖 **ChatGPT**（自定义 GPTs / ChatGPT Projects 知识库与预设指令）
+* 🧠 **Claude**（Claude Projects 结构化指令、Claude Desktop 与 Claude Code CLI）
+* 💼 **WorkBuddy**（企业级 AI 工作助手角色设定与 15 组结构化问答知识库）
+* 🚀 **Antigravity / Gemini CLI**（原生智能体专业技能库）
+* 🐍 **Python CLI**（本地一键全自动文稿合规性审查脚本 `check_gaya_ukm.py`）
 
 ---
 
