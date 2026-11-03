@@ -28,6 +28,14 @@ When assisting users with academic writing in this project:
    - Body font: 12 pt, 1.5 spacing. Tables & Figures: 10 pt.
    - Table title: Above table. Figure title: Below figure.
    - Quotes >40 words: block indented 12.7mm, single-spaced, no quotes.
+5. **Postgraduate Regulations (2026) & rev15 Word Templates**:
+   - **Graduation Publication Requirement**: PhD: Min 2 WoS/Scopus articles (Science) / 2 WoS/Scopus or 1 WoS/Scopus + 1 UKM/MyCite/chapter (Social Science). Master Research: 1 WoS/Scopus (Science) / 1 ERA/WoS/Scopus/UKM (Social Science). UKM supervisor must be an author.
+   - **Notice of Submission**: *Borang Notis Serahan Tesis* must be filed $\ge 3$ months in advance.
+   - **Anti-Plagiarism Screening**: Official *Pengesahan Bebas Plagiat* (Turnitin) required.
+   - **Word Count Caps**: PhD Research $\le 100,000$; PhD Mixed $\le 60,000$; Master Research $\le 60,000$; Master Coursework/Mixed $\le 50,000$.
+   - **Acknowledgements (rev15)**: Max 1 page; separate Dedication pages are STRICTLY FORBIDDEN; 5-tier order (God $\to$ Supervisors $\to$ Faculty $\to$ Grants $\to$ Family/Peers).
+   - **Abstract (rev15)**: 200–350 words, 1 paragraph, single-spaced; strictly NO citations `(Author Year)` or figures.
+   - **Compilation Format**: Thesis by publication recognized; automatically permits writing in English.
 
 ## Validation Tooling
 Run the automated compliance linter over any draft or chapter:

@@ -20,17 +20,54 @@ def check_file(filepath):
     warnings = []
 
     in_references_section = False
+    in_abstract_section = False
+    abstract_words = 0
+    current_abstract_name = ""
 
     for idx, line in enumerate(lines, 1):
         stripped = line.strip()
 
         # Check section boundaries
+        if re.match(r"^#+\s*(ABSTRACT|ABSTRAK)\b", stripped, re.IGNORECASE) or stripped in ["ABSTRACT", "ABSTRAK"]:
+            in_abstract_section = True
+            current_abstract_name = stripped
+            continue
+
+        if in_abstract_section and (re.match(r"^#+\s*(TABLE OF CONTENTS|CONTENTS|KANDUNGAN|CHAPTER|BAB|LIST OF|SENARAI)", stripped, re.IGNORECASE) or stripped in ["CONTENTS", "KANDUNGAN"]):
+            in_abstract_section = False
+
+        if re.match(r"^#+\s*(DEDICATION|DEDIKASI)\b", stripped, re.IGNORECASE) or stripped in ["DEDICATION", "DEDIKASI"]:
+            errors.append((
+                idx,
+                "Prohibited Dedication Page",
+                "A dedicated 'Dedication' page is strictly prohibited under Gaya UKM (rev15). All dedications must be integrated within the Acknowledgements section."
+            ))
+
         if re.match(r"^#+\s*(REFERENCES|RUJUKAN)", stripped, re.IGNORECASE) or stripped == "REFERENCES":
             in_references_section = True
+            in_abstract_section = False
             continue
 
         if re.match(r"^#+\s*(APPENDIX|LAMPIRAN)", stripped, re.IGNORECASE):
             in_references_section = False
+
+        # --- Abstract Specific Checks ---
+        if in_abstract_section and stripped:
+            # Check for illegal citations in Abstract
+            abstract_cites = re.findall(r"\(([A-Z][a-zA-Z\s\.\&]+?)\s+([12]\d{3}[a-z]?)\)", line)
+            for ac_auth, ac_yr in abstract_cites:
+                if not any(k in ac_auth.lower() for k in ["see", "eg", "e.g.", "table", "figure"]):
+                    errors.append((
+                        idx,
+                        "Prohibited Citation in Abstract",
+                        f"Found citation '({ac_auth} {ac_yr})' in {current_abstract_name}. Gaya UKM rev15 strictly forbids any literature citations in abstracts."
+                    ))
+            if re.search(r"\b[A-Z][a-z]+\s+et\s+al\.", line):
+                errors.append((
+                    idx,
+                    "Prohibited Citation in Abstract",
+                    f"Found 'et al.' citation in {current_abstract_name}. Citations are strictly prohibited in the abstract."
+                ))
 
         # --- In-Text Citation Checks (Body Text) ---
         if not in_references_section:

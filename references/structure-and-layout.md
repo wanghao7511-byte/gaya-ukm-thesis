@@ -73,19 +73,31 @@ quotations and summaries which have been duly acknowledged.
 
 ---
 
-### C. Acknowledgements (Section 3.4 & Appendix F1)
-* Heading `ACKNOWLEDGEMENTS` centered, **`30 mm`** from top edge.
+### C. Acknowledgements (Section 3.4 & rev15 Template Guidelines)
+* Heading `ACKNOWLEDGEMENTS` (or `PENGHARGAAN`) centered, **`30 mm`** from top edge.
+* **Length Restriction**: Strictly limited to a **maximum of ONE (1) page**.
+* **Dedications Prohibition**: A separate "Dedication" (*Dedikasi*) page is **strictly prohibited** in UKM. All personal dedications and notes of gratitude must be placed within the Acknowledgements.
+* **Mandatory 5-Part Hierarchical Order**:
+  1. **Praise to the Almighty** (*Pujian kepada Tuhan / Allah S.W.T.*).
+  2. **Supervisors**: Principal supervisor, co-supervisors, and supervisory committee members.
+  3. **Institution**: Faculty, Institute, University administration, technical, and laboratory staff.
+  4. **Financial Sponsors**: Specific research grant names, grant numbers, scholarship funds, or corporate sponsors.
+  5. **Family & Peers**: Parents, spouse, children, research collaborators, and fellow postgraduate candidates.
 * Single-spaced throughout.
-* Explicitly acknowledge funding/grants, university support, supervisors, and contributors.
 
 ---
 
-### D. Abstracts (Section 3.5 & Appendix G1 - G4)
+### D. Abstracts (Section 3.5 & rev15 Template Guidelines)
 * **Language Order for English Thesis**:
   1. `ABSTRAK` (Malay translated version) appears first.
   2. `ABSTRACT` (English version) follows on the next page.
 * **Length**: Strictly between **200 and 350 words**.
 * **Structure**: Exactly **one single paragraph**, **single-spaced**.
+* **The Four Strict Prohibitions for Abstracts**:
+  1. **NO Extraneous Information**: Do not include facts, assertions, or conclusions not presented in the body text.
+  2. **NO Tables or Illustrations**: Never embed tables, figures, charts, or in-text references to graphics (e.g. "as shown in Figure 1").
+  3. **NO Routine Laboratory Procedures**: Omit standard laboratory protocols, routine chemical preparations, and elementary equipment descriptions.
+  4. **NO Literature Citations**: **Under NO circumstances may citations or author-year references appear in the abstract** (e.g., `(Smith 2020)` or `Tan (2018)` are strictly disallowed).
 * **Required Core Contents**:
   1. Statement of the problem / Research questions
   2. Aim and primary objectives of the study
@@ -176,3 +188,38 @@ Level 5: i.  Refining Costs  [Flush left, Regular, 11 pt, Not in TOC]
   * **DO NOT USE QUOTATION MARKS**.
 * **Foreign Language Quotations**:
   * Any quotation in a language other than the primary thesis language must be formatted in *italics*.
+
+---
+
+## 6. Word Count Ceilings (Peraturan Pascasiswazah 2026, Peraturan 23)
+
+Word limits apply strictly to body chapters (Introduction through Conclusion). Preliminary front matter, references, appendices, tables, and footnotes are exempt:
+
+| Program | Mode | Maximum Word Count |
+| :--- | :--- | :--- |
+| **PhD / Doctoral** | Research (*Penyelidikan*) | **100,000 words** |
+| **PhD / Doctoral** | Mixed Mode (*Mod Campuran*) | **60,000 words** |
+| **Master's** | Research (*Penyelidikan*) | **60,000 words** |
+| **Master's** | Coursework / Mixed (*Kerja Kursus / Campuran*) | **50,000 words** *(increased from 30,000)* |
+
+---
+
+## 7. Official Microsoft Word Styles Mapping (`GayaUKM-rev15.dotx`)
+
+When drafting or inspecting UKM thesis manuscripts in Microsoft Word, use the built-in quick styles defined in `GayaUKM-BI-rev15.dotx` (English) and `GayaUKM-BM-rev15.dotx` (Malay):
+
+| Word Quick Style Name | Purpose & Target Element | Typography & Formatting Rules |
+| :--- | :--- | :--- |
+| `09 Heading 0` | Chapter Designation (`CHAPTER 1` / `BAB 1`) | TNR 11 pt Bold, Centered, All Caps, 50 mm top drop |
+| `09 Heading 01` | Chapter Title (`INTRODUCTION` / `PENGENALAN`) | TNR 11 pt Bold, Centered, All Caps |
+| `09a Level01` | Heading 1 (`1.1 BACKGROUND`) | TNR 11 pt Bold, Flush Left, Capitalized |
+| `09b Level02` | Heading 2 (`1.1.1 Problem Context`) | TNR 11 pt Bold, Flush Left, Title Case |
+| `09c Level03` | Heading 3 (`a. Upstream Factor`) | TNR 11 pt Bold/Regular, Flush Left |
+| `09d Level04` | Heading 4 (`i. Extraction Costs`) | TNR 11 pt Regular, Flush Left |
+| `10 Normal` | Narrative Body Text | TNR 12 pt Regular, 1.5 spacing, Justified (first para 0 mm, next 12.7 mm indent) |
+| `16 Jadual Tajuk` | Table Caption (`Table 4.1 ...`) | TNR 10 pt Bold, Flush Left, Above Table |
+| `17 Jadual Kandungan` | Table Internal Cells / Content | TNR 10 pt Regular, Single-spaced, 3-line border table |
+| `18 Rajah Tajuk` | Figure Caption (`Figure 3.1 ...`) | TNR 10 pt Bold, Flush Left, Below Figure |
+| `24 Rujukan-Penulis` | Reference List Entries | TNR 12 pt Regular, Single-spaced, 12.7 mm Hanging Indent |
+| `24a Reference-Title` | References Section Heading | TNR 11 pt Bold, Centered, All Caps, 30 mm top drop |
+

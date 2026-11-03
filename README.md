@@ -1,10 +1,11 @@
-# Gaya UKM (2015) Thesis Writing & Formatting Skill (Multi-Platform)
+# Gaya UKM Thesis Writing & Formatting Skill (Multi-Platform)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Style: Gaya UKM 2015](https://img.shields.io/badge/Standard-Gaya%20UKM%20(2015)-blue.svg)](https://www.ukm.my/pusatsiswazah/)
+[![Regulations: UKM Pascasiswazah 2026](https://img.shields.io/badge/Regulations-UKM%20Pascasiswazah%202026-brightgreen.svg)](https://www.ukm.my/pusatsiswazah/)
 [![Platforms: ChatGPT | Claude | WorkBuddy | Antigravity](https://img.shields.io/badge/Platforms-ChatGPT%20|%20Claude%20|%20WorkBuddy%20|%20Antigravity-success.svg)](#multi-platform-adaptation-guide)
 
-An authoritative, multi-platform AI assistant skill and automated compliance linter strictly implementing the **Universiti Kebangsaan Malaysia (UKM) Thesis Writing Style Guide (*Gaya UKM 2015*)** published by the **UKM Graduate Centre (Pusat Pengajian Siswazah)**.
+An authoritative, multi-platform AI assistant skill and automated compliance linter strictly implementing the **Universiti Kebangsaan Malaysia (UKM) Thesis Writing Style Guide (*Gaya UKM 2015*)**, updated with the **Kaedah-Kaedah & Peraturan-Peraturan UKM (Pengajian Pascasiswazah) 2026** and the latest **GayaUKM-rev15** official institutional templates published by the **UKM Graduate Centre (Pusat Pengajian Siswazah)**.
 
 ---
 
@@ -13,7 +14,7 @@ An authoritative, multi-platform AI assistant skill and automated compliance lin
 ### English
 Writing and formatting a Master's or PhD thesis at UKM requires strict adherence to institutional guidelines. Formatting errors (such as commas inside parenthetical citations, bracketed years in reference lists, improper headings, or non-compliant margins) frequently cause delays during proposal defense, external viva examination, and final hard-cover submission.
 
-This repository packages the entire 129-page *Gaya UKM (2015)* official manual into an **all-in-one, multi-platform toolkit** ready for deployment across:
+This repository packages the entire 129-page *Gaya UKM (2015)* official manual, the statutory **Kaedah-Kaedah & Peraturan-Peraturan UKM (Pengajian Pascasiswazah) 2026** (covering WoS/Scopus publication quotas, 3-month submission notices, Turnitin clearance, and Compilation Thesis options), and the latest **GayaUKM-rev15 Word templates** into an **all-in-one, multi-platform toolkit** ready for deployment across:
 * 🤖 **ChatGPT** (Custom GPTs / Projects)
 * 🧠 **Claude** (Claude Projects / Claude Code / Claude Desktop)
 * 💼 **WorkBuddy** (Enterprise Assistant / 腾讯/钉钉智能助手)
@@ -23,20 +24,20 @@ This repository packages the entire 129-page *Gaya UKM (2015)* official manual i
 ### Bahasa Melayu
 Penulisan dan pemformatan tesis ijazah Sarjana atau Doktor Falsafah (PhD / DBA) di Universiti Kebangsaan Malaysia (UKM) memerlukan pematuhan yang ketat terhadap garis panduan rasmi universiti. Kesilapan format lazim—seperti meletakkan tanda koma di dalam kurungan sitasi teks `(Pengarang, 2020)`, meletakkan tanda kurungan pada tahun di senarai rujukan `Pengarang (2020).`, tajuk peringkat keempat memasuki jadual kandungan, kemunculan garis menegak pada jadual, serta ketidakpatuhan margin—sering mengakibatkan kelewatan dalam pembentangan cadangan penyelidikan (proposal defense), peperiksaan lisan (viva-voce), dan penyerahan jilid kulit keras (hard cover) akhir.
 
-Repositori ini merumuskan keseluruhan manual rasmi **Gaya UKM (2015)** setebal 129 muka surat yang diterbitkan oleh **Pusat Pengajian Siswazah UKM** ke dalam satu **pakej perkakasan AI pelbagai platform** yang sedia digunakan untuk:
+Repositori ini merumuskan manual rasmi **Gaya UKM (2015)**, **Kaedah-Kaedah & Peraturan-Peraturan UKM (Pengajian Pascasiswazah) 2026** (termasuk syarat penerbitan WoS/Scopus, notis 3 bulan penyerahan tesis, perakuan bebas plagiat Turnitin, dan Format Kompilasi), serta templat rasmi Word **GayaUKM-rev15** ke dalam satu **pakej perkakasan AI pelbagai platform** yang sedia digunakan untuk:
 * 🤖 **ChatGPT** (Arahan tersuai Custom GPTs / ChatGPT Projects & pakej pangkalan pengetahuan)
 * 🧠 **Claude** (Arahan berstruktur Claude Projects, Claude Desktop & Claude Code CLI)
-* 💼 **WorkBuddy** (Tetapan peranan pembantu kerja perusahaan & pangkalan pengetahuan 15 kad Soal Jawab)
+* 💼 **WorkBuddy** (Tetapan peranan pembantu kerja perusahaan & pangkalan pengetahuan 19 kad Soal Jawab)
 * 🚀 **Antigravity / Gemini CLI** (Kemahiran ejen pintar / Agentic Skill)
 * 🐍 **Python CLI** (Skrip audit kepatuhan manuskrip automatik `check_gaya_ukm.py`)
 
 ### 中文概述
 在马来西亚国民大学（UKM）撰写硕士（Master）或博士（PhD / DBA）学位论文及开题报告（Proposal）时，必须 100% 严格执行校方官方规范。诸如正文括号引用中误加逗号 `(Author, 2020)`、参考文献列表年份误带括号 `Author (2020).`、四级标题非法进入目录、表格出现纵向竖线以及页边距不合规等典型格式错误，往往会导致开题被拒、送审答辩（Viva Voce）延误以及最终精装本（Hard Cover）归档受阻。
 
-本项目将 UKM 研究生院（Pusat Pengajian Siswazah）颁布的 **129 页官方《Gaya UKM 2015》权威指南**完整提炼与结构化重构，打造了一套**跨平台、开箱即用的 AI 论文写作辅助与格式审查工具包**，已全面适配：
+本项目将 UKM 研究生院（Pusat Pengajian Siswazah）颁布的 **《Gaya UKM 2015》权威指南**、最新的 **《Kaedah-Kaedah & Peraturan-Peraturan UKM (Pengajian Pascasiswazah) 2026》研究生规章条例**（涵盖 WoS/Scopus 毕业发表硬指标、提前 3 个月提交送审通知、Turnitin 查重认证、发表汇编型论文 Format Kompilasi 等）以及官方最新的 **GayaUKM-rev15 Word 模板细则**（严禁设立单独献词页、摘要四项禁令等）完整提炼与结构化重构，打造了一套**跨平台、开箱即用的 AI 论文写作辅助与格式审查工具包**，已全面适配：
 * 🤖 **ChatGPT**（自定义 GPTs / ChatGPT Projects 知识库与预设指令）
 * 🧠 **Claude**（Claude Projects 结构化指令、Claude Desktop 与 Claude Code CLI）
-* 💼 **WorkBuddy**（企业级 AI 工作助手角色设定与 15 组结构化问答知识库）
+* 💼 **WorkBuddy**（企业级 AI 工作助手角色设定与 19 组高频问答知识库）
 * 🚀 **Antigravity / Gemini CLI**（原生智能体专业技能库）
 * 🐍 **Python CLI**（本地一键全自动文稿合规性审查脚本 `check_gaya_ukm.py`）
 
@@ -51,8 +52,9 @@ gaya-ukm-thesis/
 ├── CLAUDE.md                           # Direct configuration for Claude Code / Claude Desktop
 ├── SKILL.md                            # Antigravity / Agentic IDE skill manifest
 ├── references/                         # In-depth technical specifications
+│   ├── ukm-postgraduate-regulations-2026.md # 2026 UKM bylaws, WoS/Scopus quotas, 3-month notice, Turnitin
 │   ├── formatting-specifications.md    # Margins, fonts, spacing, pagination, cover & spine
-│   ├── structure-and-layout.md         # 14-item sequence, title pages, abstracts, heading levels
+│   ├── structure-and-layout.md         # 14-item sequence, title pages, abstracts, rev15 Word styles
 │   └── citation-and-references.md      # Author-Date rules & 50+ real reference templates
 ├── platforms/                          # Platform-specific prompt & configuration packs
 │   ├── chatgpt/
@@ -63,9 +65,9 @@ gaya-ukm-thesis/
 │   │   └── project-instructions.md     # XML-optimized prompt for Claude Project Instructions
 │   └── workbuddy/
 │       ├── system-prompt.md            # WorkBuddy role definition & response template
-│       └── qa-knowledge-base.md        # 15 high-frequency Q&A cards for knowledge base import
+│       └── qa-knowledge-base.md        # 19 high-frequency Q&A cards for knowledge base import
 ├── scripts/
-│   └── check_gaya_ukm.py               # Automated Python compliance checker
+│   └── check_gaya_ukm.py               # Automated Python compliance checker (abstract citation check)
 └── examples/
     ├── sample_chapter_before.md        # Chapter draft containing typical violations
     └── sample_chapter_after.md         # 100% compliant corrected sample
@@ -181,6 +183,11 @@ cp -r . .agents/skills/gaya-ukm-thesis/
 | **Typography** | Times New Roman (12 pt body, 11 pt headings, 10 pt tables) | ❌ Mixing Arial or Calibri |
 | **Table Layout** | Title ABOVE table (10 pt), 3-line table, no vertical lines | ❌ Title below table, or gridlines present |
 | **Figure Layout** | Title BELOW figure (10 pt), text referral precedes figure | ❌ Title above figure, or figure before text |
+| **Abstract (rev15)** | Strictly NO literature citations `(Author Year)` or figures | ❌ Including citations or routine lab protocols in abstract |
+| **Acknowledgements** | Max 1 page; 5-tier order; Dedication pages PROHIBITED | ❌ Separate "Dedication" page (strictly banned) |
+| **Word Limits (2026)** | PhD $\le 100\text{k}$; Master Research $\le 60\text{k}$; Master Mixed $\le 50\text{k}$ | ❌ Exceeding cap without 3-month prior Dean approval |
+| **Publication Quota** | PhD: 2 WoS/Scopus; Master: 1 WoS/Scopus (Supervisor co-author) | ❌ Non-indexed publications or omitting UKM supervisor |
+| **Submission Notice** | *Borang Notis Serahan Tesis* filed $\ge 3$ months before submission | ❌ Submitting thesis without 3-month advance notice |
 
 ---
 

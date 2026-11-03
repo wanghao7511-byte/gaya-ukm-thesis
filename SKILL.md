@@ -25,7 +25,7 @@ This skill provides an authoritative, end-to-end framework and automated auditin
 | **Line Spacing** | **1.5 spacing**: General body text<br>**1.0 single spacing**: Declarations, acknowledgements, abstracts, TOC, list of tables/illustrations, table contents, block quotes (>40 words), footnotes, reference items | Sec 1.2.4 |
 | **Paragraphing** | **First paragraph** under any heading: **No indent (Flush Left)**<br>**Subsequent paragraphs**: First line indented **`12.7 mm` (0.5 in)** | Sec 1.2.5 |
 | **Pagination** | **Top-right corner**, `15 mm` from top edge, `25 mm` from right edge.<br>• Prelim pages: lower-case Roman (`i, ii, iii...`), title page is `i` (hidden).<br>• Main text & appendices: Arabic (`1, 2, 3...`), chapter first pages count but hidden. | Sec 2.2 |
-| **Word Limits** | • **PhD**: Max 100,000 words or 400 pages.<br>• **Master (Research)**: Max 60,000 words or 250 pages.<br>• **Master (Coursework/Mixed Dissertation)**: Max 30,000 words or 130 pages.<br>*(Excludes footnotes, quotations, appendices, formulas, tables, figures)* | Sec 3.12.1-3.12.2 |
+| **Word Limits** | • **PhD (Research)**: Max 100,000 words; **PhD (Mixed)**: Max 60,000 words.<br>• **Master (Research)**: Max 60,000 words.<br>• **Master (Coursework/Mixed)**: Max **50,000 words** *(updated in 2026 Regulations)*.<br>*(Excludes preliminary pages, references, appendices, footnotes, tables, figures)* | Sec 3.12.1; Peraturan 2026 Sec 23 |
 | **Cover Colors** | • **PhD / DBA / DrPH**: Navy Blue (Hard cover, gold lettering)<br>• **Master**: Maroon (Hard cover, gold lettering)<br>• **Postgraduate Diploma**: Black | Sec 1.5.2 |
 
 ---
@@ -39,9 +39,9 @@ Ensure the thesis strictly follows the 14-item mandatory order (Chapter III):
 1. `TITLE PAGE` (Inverted pyramid title `60 mm` from top, Year `40 mm` from bottom)
 2. `TRANSLATION OF TITLE PAGE` (Bahasa Melayu translation for English thesis)
 3. `DECLARATION` (Single-spaced, author signature & matric no.)
-4. `ACKNOWLEDGEMENTS` (Single-spaced, heading centered `30 mm` from top)
-5. `ABSTRAK` (Malay abstract, single paragraph, single-spaced, 200–350 words)
-6. `ABSTRACT` (English abstract, single paragraph, single-spaced, 200–350 words)
+4. `ACKNOWLEDGEMENTS` (Single-spaced, heading centered `30 mm` from top; max 1 page; separate Dedications strictly forbidden; 5-tier order: God $\to$ Supervisors $\to$ Faculty $\to$ Grants $\to$ Family/Peers)
+5. `ABSTRAK` (Malay abstract, single paragraph, single-spaced, 200–350 words; strictly NO citations or illustrations)
+6. `ABSTRACT` (English abstract, single paragraph, single-spaced, 200–350 words; strictly NO citations or illustrations)
 7. `CONTENTS` (Table of contents, only levels 1–3 allowed)
 8. `LIST OF TABLES`
 9. `LIST OF ILLUSTRATIONS`
@@ -121,11 +121,30 @@ Verify that writing conforms to SI units and technical conventions:
 
 ---
 
+### Workflow Phase 6: Postgraduate Regulations & Submission Protocol (2026 Edition)
+Verify compliance with statutory criteria under *Kaedah-Kaedah & Peraturan-Peraturan UKM (Pengajian Pascasiswazah) 2026*:
+1. **Publication Benchmark for Graduation (Peraturan 25)**:
+   - PhD (Science/Eng/Medicine): Min. **2 WoS/Scopus indexed journal articles**.
+   - PhD (Social Sciences/Humanities): Min. **2 WoS/Scopus articles**, OR **1 WoS/Scopus + 1 UKM/MyCite journal or peer-reviewed book chapter**.
+   - Master by Research: Min. **1 WoS/Scopus article** (Science) / **1 ERA/WoS/Scopus or UKM/MyCite article** (Social Science).
+   - Co-authorship: UKM supervisor must be an author with UKM affiliation. Proof of submission required at notice; proof of acceptance required before viva.
+2. **Submission Notice & Anti-Plagiarism (Peraturan 24)**:
+   - Notice of Thesis Submission (*Borang Notis Serahan Tesis*): Submit to Dean/Faculty $\ge 3$ months prior to submission.
+   - Anti-Plagiarism Certification: Official *Pengesahan Bebas Plagiat* certificate (Turnitin screening) required before submission is accepted.
+3. **Format Selection (Peraturan 23)**:
+   - Conventional Monograph vs. Compilation Format (*Format Kompilasi* / Thesis by Publication).
+   - Candidates choosing Compilation Format automatically qualify to write in English.
+
+---
+
 ## 3. Automation Tools & Helper Scripts
 
 This skill includes an automated Python verification script in `./scripts/check_gaya_ukm.py` that parses text, markdown, or TeX manuscripts to catch:
+- Prohibited citations inside abstracts `(Author Year)` or `et al.` (rev15 rule)
+- Prohibited dedicated `DEDICATION` pages (rev15 rule)
 - Parenthetical citations with illegal commas (e.g. `(Author, 2020)`)
 - Reference items with bracketed years (e.g. `Author (2020)`)
+- Conjunction errors in citations (`and` inside parentheses instead of `&`)
 - Deep headings (level 4+) appearing in table of contents
 - Missing spaces in SI units (e.g. `10kg`, `5cm`)
 
@@ -138,6 +157,7 @@ python3 ~/.gemini/config/skills/gaya-ukm-thesis/scripts/check_gaya_ukm.py path/t
 
 ## 4. References Directory Overview
 
+* [UKM Postgraduate Regulations (2026 Edition)](./references/ukm-postgraduate-regulations-2026.md): Statutory bylaws, graduation publication quotas (WoS/Scopus), 3-month notice of submission, Turnitin clearance, viva voce outcomes, and Tesis Cemerlang distinction.
 * [Technical Formatting Specifications](./references/formatting-specifications.md): Exact measurements, cover layouts, spine dimensions, margins, and paper requirements.
-* [Structure and Layout Standards](./references/structure-and-layout.md): Complete preliminary page templates, word count caps, and chapter outlines.
+* [Structure and Layout Standards](./references/structure-and-layout.md): Complete preliminary page templates, word count caps, rev15 Word styles mapping, and chapter outlines.
 * [Citation and References Manual](./references/citation-and-references.md): Comprehensive reference guide with 50+ real examples matching Chapter IV and V of Gaya UKM.

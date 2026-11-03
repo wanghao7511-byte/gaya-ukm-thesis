@@ -84,6 +84,31 @@
         - Over 40 words: Standalone block paragraph, single-spaced, indented 12.7 mm, NO quotation marks.
       </quotations>
     </formatting_specifications>
+
+    <postgraduate_regulations_2026>
+      <publication_quotas>
+        - PhD (Science/Eng/Medicine): Minimum 2 articles in Web of Science (WoS) / Scopus indexed journals.
+        - PhD (Social Sciences/Humanities): Minimum 2 WoS/Scopus articles, OR 1 WoS/Scopus + 1 UKM/MyCite journal or peer-reviewed book chapter.
+        - Master by Research: 1 WoS/Scopus article (Science) / 1 ERA/WoS/Scopus or UKM/MyCite/book chapter (Social Sciences).
+        - Authorship: UKM supervisor must be an author with UKM institutional affiliation. Proof of submission required at notice; proof of acceptance required before viva.
+      </publication_quotas>
+      <submission_protocols>
+        - 3-Month Notice: Submit 'Borang Notis Serahan Tesis' at least 3 months prior to thesis submission.
+        - Similarity Screening: Official 'Pengesahan Bebas Plagiat' (Turnitin) certificate required.
+      </submission_protocols>
+      <thesis_formats>
+        - Conventional Monograph: Standard cohesive 5-6 chapter thesis.
+        - Compilation Format (Format Kompilasi): Thesis by publication containing peer-reviewed papers; automatically qualifies candidate to write in English.
+      </thesis_formats>
+      <word_limits>
+        - PhD Research: 100,000 words; PhD Mixed Mode: 60,000 words.
+        - Master Research: 60,000 words; Master Coursework/Mixed: 50,000 words.
+      </word_limits>
+      <rev15_template_rules>
+        - Acknowledgements: Max 1 page. Separate Dedication pages are STRICTLY FORBIDDEN. 5-part hierarchical order: Praise to God -> Supervisors -> Faculty/Staff -> Grants/Sponsors -> Family/Peers.
+        - Abstract: 200-350 words, 1 paragraph, single-spaced. Strictly NO citations '(Author Year)', NO tables/figures, NO routine lab procedures.
+      </rev15_template_rules>
+    </postgraduate_regulations_2026>
   </mandatory_guidelines>
 
   <modes_of_interaction>

@@ -50,9 +50,9 @@ The thesis must assemble components strictly in this order:
 1. **TITLE PAGE**: Inverted pyramid title `60 mm` from top; submission year `40 mm` from bottom.
 2. **TRANSLATION OF TITLE PAGE**: Title page in Bahasa Melayu (for English thesis).
 3. **DECLARATION**: Originality statement with signature, date, and matric number.
-4. **ACKNOWLEDGEMENTS**: Single-spaced, centered `30 mm` from top.
-5. **ABSTRAK**: Malay abstract, 200–350 words, single-spaced, exactly ONE single paragraph.
-6. **ABSTRACT**: English abstract, 200–350 words, single-spaced, exactly ONE single paragraph.
+4. **ACKNOWLEDGEMENTS**: Single-spaced, centered `30 mm` from top. Max 1 page. Separate "Dedication" pages are strictly forbidden. Mandatory 5-tier hierarchy: God $\to$ Supervisors $\to$ Faculty $\to$ Grants/Sponsors $\to$ Family/Peers.
+5. **ABSTRAK**: Malay abstract, 200–350 words, single-spaced, exactly ONE single paragraph. Under no circumstances may citations, figures, or routine lab steps appear here.
+6. **ABSTRACT**: English abstract, 200–350 words, single-spaced, exactly ONE single paragraph. Strictly NO literature citations or references.
 7. **CONTENTS**: Table of contents, showing headings down to level 3 (`1.1.1`) only.
 8. **LIST OF TABLES**: Chapter-based numbering (e.g. Table 4.1).
 9. **LIST OF ILLUSTRATIONS**: Figures, charts, maps, diagrams.
@@ -149,9 +149,52 @@ UKM permits a maximum of 5 subtopic tiers. Only levels 1 to 3 may appear in the 
 
 ---
 
-## 7. Word Limits and Cover Colors
+## 7. Word Limits and Cover Colors (2026 Regulations Update)
 
-- **PhD / Professional Doctorate**: Max 100,000 words or 400 pages. Hard cover color: **Navy Blue**. Spine degree: `Dr. Fal.` or `D. P. P.`
-- **Master by Research**: Max 60,000 words or 250 pages. Hard cover color: **Maroon**.
-- **Master Coursework/Dissertation**: Max 30,000 words or 130 pages. Hard cover color: **Maroon**.
-- **Postgraduate Diploma**: Hard cover color: **Black**.
+- **PhD / Doctoral (Research Mode)**: Maximum **100,000 words** (or 400 pages). Hard cover color: **Navy Blue** (Biru Tua). Spine degree: `Dr. Fal.` or `D. P. P.`
+- **PhD / Doctoral (Mixed Mode)**: Maximum **60,000 words**. Hard cover color: **Navy Blue**.
+- **Master by Research**: Maximum **60,000 words** (or 250 pages). Hard cover color: **Maroon** (Merah Hati). Spine degree: `S. Sn.`, `S. Ekon.`, `S. Sa.`, etc.
+- **Master Coursework / Mixed Mode**: Maximum **50,000 words** *(increased from 30,000 words)*. Hard cover color: **Maroon**.
+- **Postgraduate Diploma**: Hard cover color: **Black** (Hitam).
+
+---
+
+## 8. UKM Postgraduate Academic Regulations (2026 Edition)
+
+### A. Mandatory Publication Quotas for Graduation (Peraturan 25)
+- **PhD (Science, Tech, Medicine)**: Minimum **TWO (2) journal articles** indexed in **Web of Science (WoS) / Scopus**.
+- **PhD (Social Sciences & Humanities)**: Minimum **TWO (2) journal articles** in **WoS / Scopus**, OR **ONE (1) WoS/Scopus** + **ONE (1) UKM/MyCite journal or peer-reviewed book chapter**.
+- **Master by Research (Science)**: Minimum **ONE (1) journal article** indexed in **WoS / Scopus**.
+- **Master by Research (Social Sciences)**: Minimum **ONE (1) journal article** indexed in **ERA / WoS / Scopus**, OR **ONE (1) UKM/MyCite article / book chapter**.
+- *Supervisor requirement*: The UKM supervisor must be an author with UKM institutional affiliation. Proof of submission required at notice of submission; proof of acceptance required before graduation.
+
+### B. Advance Submission Notice & Turnitin Clearance (Peraturan 24)
+- **3-Month Notice**: Candidates must submit the *Borang Notis Serahan Tesis* at least **3 months** prior to thesis submission.
+- **Plagiarism Clearance**: Submission requires an official *Pengesahan Bebas Plagiat* certificate based on Turnitin screening.
+
+### C. Conventional Monograph vs. Compilation Format (Peraturan 23)
+- **Conventional Monograph**: Classic 5-6 chapter unified thesis.
+- **Compilation Format (Thesis by Publication)**: Published/accepted papers integrated as core chapters, bound by general introduction, theoretical background, bridging narratives, and comprehensive conclusion. Automatically grants English language writing rights.
+
+### D. Viva Voce Outcomes & Honours (Kaedah 21 & 25)
+- Category 1 (Pass without correction), Category 2 (Minor: 1-3 months), Category 3 (Major: 6-12 months; 12 months requires re-viva), Category 4 (Re-submit), Category 5 (Fail).
+- **Tesis Cemerlang (Distinction)**: Unanimous examiner approval, exceeded publications, completed on time (PhD $\le 8$ sem FT / $\le 10$ sem PT; Master $\le 6$ sem FT / $\le 8$ sem PT).
+- **Flexible Exit Route**: Qualified PhD candidates may be conferred a Master's degree if doctoral standards are not fully satisfied.
+
+---
+
+## 9. Official Word Template Styles Mapping (`GayaUKM-rev15.dotx`)
+
+- `09 Heading 0`: Chapter Number (`CHAPTER 1` / `BAB 1`) - TNR 11 pt Bold Centered, 50 mm top drop.
+- `09 Heading 01`: Chapter Title (`INTRODUCTION`) - TNR 11 pt Bold Centered.
+- `09a Level01`: Heading 1 (`1.1 BACKGROUND`) - TNR 11 pt Bold Flush Left.
+- `09b Level02`: Heading 2 (`1.1.1 Problem Context`) - TNR 11 pt Bold Flush Left.
+- `09c Level03`: Heading 3 (`a. Upstream Factor`) - TNR 11 pt Flush Left.
+- `09d Level04`: Heading 4 (`i. Extraction Costs`) - TNR 11 pt Regular Flush Left.
+- `10 Normal`: Body text - TNR 12 pt Regular, 1.5 spacing, 0 mm first paragraph, 12.7 mm subsequent.
+- `16 Jadual Tajuk`: Table Caption (`Table 4.1 ...`) - TNR 10 pt Bold Above Table.
+- `17 Jadual Kandungan`: Table contents - TNR 10 pt Regular Single-spaced.
+- `18 Rajah Tajuk`: Figure Caption (`Figure 3.1 ...`) - TNR 10 pt Bold Below Figure.
+- `24 Rujukan-Penulis`: Reference entries - TNR 12 pt Regular, Single-spaced, 12.7 mm hanging indent.
+- `24a Reference-Title`: References Section Title (`REFERENCES` / `RUJUKAN`).
+
