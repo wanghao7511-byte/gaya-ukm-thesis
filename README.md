@@ -8,7 +8,7 @@ An authoritative, multi-platform AI assistant skill and automated compliance lin
 
 ---
 
-## 🌟 Overview / 项目概述
+## 🌟 Overview / 项目概述 / Gambaran Keseluruhan
 
 ### English
 Writing and formatting a Master's or PhD thesis at UKM requires strict adherence to institutional guidelines. Formatting errors (such as commas inside parenthetical citations, bracketed years in reference lists, improper headings, or non-compliant margins) frequently cause delays during proposal defense, external viva examination, and final hard-cover submission.
@@ -19,6 +19,16 @@ This repository packages the entire 129-page *Gaya UKM (2015)* official manual i
 * 💼 **WorkBuddy** (Enterprise Assistant / 腾讯/钉钉智能助手)
 * 🚀 **Antigravity / Gemini CLI** (Native Agentic Skill)
 * 🐍 **Python CLI** (Automated manuscript compliance linter)
+
+### Bahasa Melayu
+Penulisan dan pemformatan tesis ijazah Sarjana atau Doktor Falsafah (PhD / DBA) di Universiti Kebangsaan Malaysia (UKM) memerlukan pematuhan yang ketat terhadap garis panduan rasmi universiti. Kesilapan format lazim—seperti meletakkan tanda koma di dalam kurungan sitasi teks `(Pengarang, 2020)`, meletakkan tanda kurungan pada tahun di senarai rujukan `Pengarang (2020).`, tajuk peringkat keempat memasuki jadual kandungan, kemunculan garis menegak pada jadual, serta ketidakpatuhan margin—sering mengakibatkan kelewatan dalam pembentangan cadangan penyelidikan (proposal defense), peperiksaan lisan (viva-voce), dan penyerahan jilid kulit keras (hard cover) akhir.
+
+Repositori ini merumuskan keseluruhan manual rasmi **Gaya UKM (2015)** setebal 129 muka surat yang diterbitkan oleh **Pusat Pengajian Siswazah UKM** ke dalam satu **pakej perkakasan AI pelbagai platform** yang sedia digunakan untuk:
+* 🤖 **ChatGPT** (Arahan tersuai Custom GPTs / ChatGPT Projects & pakej pangkalan pengetahuan)
+* 🧠 **Claude** (Arahan berstruktur Claude Projects, Claude Desktop & Claude Code CLI)
+* 💼 **WorkBuddy** (Tetapan peranan pembantu kerja perusahaan & pangkalan pengetahuan 15 kad Soal Jawab)
+* 🚀 **Antigravity / Gemini CLI** (Kemahiran ejen pintar / Agentic Skill)
+* 🐍 **Python CLI** (Skrip audit kepatuhan manuskrip automatik `check_gaya_ukm.py`)
 
 ### 中文概述
 在马来西亚国民大学（UKM）撰写硕士（Master）或博士（PhD / DBA）学位论文及开题报告（Proposal）时，必须 100% 严格执行校方官方规范。诸如正文括号引用中误加逗号 `(Author, 2020)`、参考文献列表年份误带括号 `Author (2020).`、四级标题非法进入目录、表格出现纵向竖线以及页边距不合规等典型格式错误，往往会导致开题被拒、送审答辩（Viva Voce）延误以及最终精装本（Hard Cover）归档受阻。
