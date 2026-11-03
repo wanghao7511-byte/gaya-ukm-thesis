@@ -73,9 +73,11 @@ gaya-ukm-thesis/
 
 ---
 
-## 🚀 Multi-Platform Adaptation Guide
+## 🚀 Multi-Platform Adaptation Guide / 多平台部署适配指南
 
-### 1. 🤖 ChatGPT (Custom GPT or Project)
+### 1. 🤖 ChatGPT (Custom GPT or Project / 自定义 GPT 与项目)
+
+**English Steps**:
 1. Go to **ChatGPT** -> **Explore GPTs** -> **Create**.
 2. In the **Configure** tab:
    * **Name**: `Gaya UKM Thesis Assistant (2015)`
@@ -86,29 +88,58 @@ gaya-ukm-thesis/
    * **Capabilities**: Check *Code Interpreter* and *Web Browsing*.
 3. Click **Save / Publish**.
 
+**中文配置指南**:
+1. 登录 **ChatGPT** -> 点击左侧导航栏 **Explore GPTs** -> 点击右上角 **+ Create** 创建专属助手。
+2. 切换到 **Configure（配置）** 页面：
+   * **Name（名称）**：`Gaya UKM Thesis Assistant (2015)`
+   * **Description（简介）**：复制 [`platforms/chatgpt/conversation-starters.md`](./platforms/chatgpt/conversation-starters.md) 中的描述。
+   * **Instructions（指令）**：复制粘贴 [`platforms/chatgpt/custom-gpt-instructions.md`](./platforms/chatgpt/custom-gpt-instructions.md) 的全部内容。
+   * **Conversation Starters（开场预设问题）**：添加 [`platforms/chatgpt/conversation-starters.md`](./platforms/chatgpt/conversation-starters.md) 中的 4 条快捷提问。
+   * **Knowledge（知识库）**：点击 **Upload files**，上传整合好的 [`platforms/chatgpt/gaya-ukm-knowledge-pack.md`](./platforms/chatgpt/gaya-ukm-knowledge-pack.md)。
+   * **Capabilities（能力）**：勾选 *Code Interpreter（代码分析）* 与 *Web Browsing（网页浏览）*。
+3. 点击右上角 **Save / Publish（保存发布）** 即可使用。
+
 ---
 
 ### 2. 🧠 Claude (Claude Projects & Claude Desktop / Code)
 
-#### Option A: Claude Projects (Web)
-1. In Claude.ai, create a new **Project** named `Gaya UKM Thesis Assistant`.
-2. Click **Set Project Instructions** and paste the contents of [`platforms/claude/project-instructions.md`](./platforms/claude/project-instructions.md).
-3. In **Project Knowledge**, upload the files inside [`references/`](./references/).
+#### Option A: Claude Projects (Web 端项目知识库)
+* **English**:
+  1. In Claude.ai, create a new **Project** named `Gaya UKM Thesis Assistant`.
+  2. Click **Set Project Instructions** and paste the contents of [`platforms/claude/project-instructions.md`](./platforms/claude/project-instructions.md).
+  3. In **Project Knowledge**, upload the files inside [`references/`](./references/).
+* **中文**:
+  1. 打开 Claude.ai，在左侧点击 **Projects** 创建名为 `Gaya UKM Thesis Assistant` 的项目。
+  2. 点击 **Set Project Instructions（设置项目指令）**，将 [`platforms/claude/project-instructions.md`](./platforms/claude/project-instructions.md) 中的 XML 结构化系统提示词粘贴进去。
+  3. 在 **Project Knowledge（项目知识库）** 中上传 [`references/`](./references/) 目录下的参考文件。
 
-#### Option B: Claude Code CLI / Claude Desktop
-If you are using Claude Code CLI or Claude Desktop in project mode, it will automatically detect and load [`CLAUDE.md`](./CLAUDE.md) located at the root of this repository.
+#### Option B: Claude Code CLI / Claude Desktop (本地命令行与桌面端)
+* **English**:
+  If you are using Claude Code CLI or Claude Desktop in project mode, it will automatically detect and load [`CLAUDE.md`](./CLAUDE.md) located at the root of this repository.
+* **中文**:
+  如果您使用 Claude Code 命令行工具或 Claude Desktop 桌面端管理本地项目，它会自动识别并挂载仓库根目录下的 [`CLAUDE.md`](./CLAUDE.md)，无需额外手动配置。
 
 ---
 
 ### 3. 💼 WorkBuddy (企业级 AI / 办公助手)
-1. 在 WorkBuddy / 腾讯工作助手 / 钉钉助手 中创建“新智能体 / 专家助手”。
-2. **角色设定 / 系统提示词**：复制粘贴 [`platforms/workbuddy/system-prompt.md`](./platforms/workbuddy/system-prompt.md) 的内容。
-3. **知识库挂载**：在助手知识库配置中，将 [`platforms/workbuddy/qa-knowledge-base.md`](./platforms/workbuddy/qa-knowledge-base.md) 作为问答知识库导入。
-4. 保存后即可在日常写作时一键调用审核与排版功能。
+
+**English Steps**:
+1. Create a "New Agent / Expert Assistant" in WorkBuddy / Tencent Work Assistant / DingTalk.
+2. **Role / System Prompt**: Copy and paste the text from [`platforms/workbuddy/system-prompt.md`](./platforms/workbuddy/system-prompt.md).
+3. **Knowledge Base**: Import the Q&A card database from [`platforms/workbuddy/qa-knowledge-base.md`](./platforms/workbuddy/qa-knowledge-base.md).
+4. Save and invoke the assistant directly during your daily academic writing and formatting workflow.
+
+**中文配置指南**:
+1. 在 WorkBuddy / 腾讯工作助手 / 钉钉助手 中点击“创建新智能体 / 专家助手”。
+2. **角色设定 / 系统提示词**：复制粘贴 [`platforms/workbuddy/system-prompt.md`](./platforms/workbuddy/system-prompt.md) 的全部内容。
+3. **知识库挂载**：在知识库配置中，将 [`platforms/workbuddy/qa-knowledge-base.md`](./platforms/workbuddy/qa-knowledge-base.md) 作为结构化问答库导入（内置 15 组关于边距、字体、摘要、中英文姓名著录、三线表规范的高频问答）。
+4. 保存后即可在日常写作与开题论文排版中随时一键调用审查与修改建议。
 
 ---
 
-### 4. 🚀 Antigravity / Gemini CLI
+### 4. 🚀 Antigravity / Gemini CLI (原生智能体技能库)
+
+**English**:
 Copy the repository into your skills directory:
 ```bash
 # Global installation (available across all projects)
@@ -120,6 +151,19 @@ mkdir -p .agents/skills/gaya-ukm-thesis
 cp -r . .agents/skills/gaya-ukm-thesis/
 ```
 The agent will automatically trigger the skill whenever UKM thesis writing or formatting is mentioned.
+
+**中文说明**:
+将本仓库复制到 Antigravity / Gemini 的 skills 技能目录中即可生效：
+```bash
+# 全局安装（所有项目通用）
+mkdir -p ~/.gemini/config/skills/gaya-ukm-thesis
+cp -r . ~/.gemini/config/skills/gaya-ukm-thesis/
+
+# 或当前项目工作空间独立安装
+mkdir -p .agents/skills/gaya-ukm-thesis
+cp -r . .agents/skills/gaya-ukm-thesis/
+```
+安装后，每当在对话中涉及 UKM 论文写作、开题报告、文献格式排版时，智能体将自动加载并激活此技能。
 
 ---
 
